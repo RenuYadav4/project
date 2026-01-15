@@ -1,0 +1,48 @@
+# -------------------------
+# Core Framework
+# -------------------------
+fastapi
+uvicorn[standard]
+
+# -------------------------
+# Database & ORM
+# -------------------------
+sqlalchemy
+alembic
+asyncpg
+psycopg2-binary
+
+# -------------------------
+# Environment & Settings
+# -------------------------
+python-dotenv
+pydantic-settings
+
+# -------------------------
+# Authentication & Security
+# -------------------------
+python-jose[cryptography]
+passlib[bcrypt]
+
+# -------------------------
+# CORS, Background Tasks, Extras
+# -------------------------
+fastapi[all]
+
+# -------------------------
+# Testing
+# -------------------------
+pytest
+httpx
+
+# -------------------------
+# Code Quality & Formatting
+# -------------------------
+black
+isort
+flake8
+
+# -------------------------
+# Production Server
+# -------------------------
+gunicorn
